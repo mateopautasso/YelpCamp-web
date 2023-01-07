@@ -1,0 +1,103 @@
+:root {
+    /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+    --border-grey: #c6c6c6;
+    --input-grey: #f7f7f7;
+  
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+
+    /* others */
+    --general-border-radius: 6px
+  }
+  
+h1 {
+    color: var(--principal-black);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+h2 {
+    color: var(--principal-black);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+p {
+    color: var(--principal-grey);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+a {
+    color: var(--principal-grey);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+a:hover {
+    color: var(--principal-black);
+}
+
+/* general button styles */
+button {
+    padding: 20px;
+    border-radius: 6px;
+    letter-spacing: 0.7px;
+    background-color: var(--principal-black);
+    color: var(--principal-white);
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--principal-grey);
+}
+.primary-button {
+    padding: 20px;
+    border-radius: 6px;
+    letter-spacing: 0.7px;
+    background-color: var(--principal-black);
+    color: var(--principal-white);
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: var(--principal-grey);
+}
+.secondary-button {
+    background-color: var(--principal-white);
+    color: var(--principal-black);
+    border: 1px solid var(--border-grey);
+}
+.secondary-button:hover {
+    background-color: var(--secondary-white);
+    border: 1px solid var(--principal-grey);
+}
+
+
+/* general input styles */
+input {
+    padding: 20px;
+    border-radius: 6px;
+    border: solid 1px #c6c6c6;
+    background-color: white;
+}
+.form__input {
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--input-grey);
+}
+
+.form__input--button {
+    width: 100%;
+    color: var(--principal-white);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.logo {
+    width: 118px;
+    height: 27px;
+}

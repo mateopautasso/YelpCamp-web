@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="Css/Reset-Variables/Reset-Variables.css">
+    <link rel="stylesheet" href="Css/Estilos_principales/styles.css">
+    <link rel="stylesheet" href="Css/Componentes/componentes.css">
+    <link rel="stylesheet" href="Css/Breakpoints/Landing_Page/phone-smalltablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="Css/Breakpoints/Landing_Page/largetablet-desktop-1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="Css/Breakpoints/Landing_Page/desktop-1366.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="Css/Breakpoints/Landing_Page/more-of-1366.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+     /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="main-container--left">
+            <header class="main-container--left__header header__container">
+                <img class="header__img logo" src="Assets/Logo.svg" alt="Logo">
+            </header>
+            <img class="main-container--left__img" src="Assets/Hero Image (Tablet and Mobile).jpg" alt="">
+            <img class="main-container--left__img--desktop" src="Assets/Hero Image.jpg" alt="">
+        </section>
+
+        <section class="main-container--right">
+            <main class="main-container--right__main main">
+                <h1 class="main__h1">Explore the best camps on Earth</h1>
+
+                <p class="main__p">YelpCamp is a curated list of the best camp camping spots on Earth. Unfiltered and unbiased reviews.</p>
+
+                <ul class="main__ul">
+                    <li class="main__li">
+                        <img src="Assets/Checkmark.svg" alt="">
+                        <p class="main__p">Add your own camp suggestions.</p>
+                    </li>
+                    <li class="main__li">
+                        <img src="Assets/Checkmark.svg" alt="">
+                        <p class="main__p">Leave reviews and experiences.</p>
+                    </li>
+                    <li class="main__li">
+                        <img src="Assets/Checkmark.svg" alt="">
+                        <p class="main__p">See locations for all camp</p>
+                    </li>
+                </ul>
+
+                <button class="main__button primary-button">
+                    View Campgrounds
+                </button>
+
+                <p>Partnered with:</p>
+                <div class="main__container-sponsors">
+                    <img src="Assets/Airbnb.svg" alt="">
+                    <img src="Assets/Booking.svg" alt="">
+                    <img src="Assets/Plum Guide.svg" alt="">
+                </div> 
+
+            </main>
+        </section>
+    </div>
+
+</body>
+</html>

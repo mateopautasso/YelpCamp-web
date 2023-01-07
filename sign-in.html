@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo-pestannia.png">
+    <title>Sign In | Yelp Camp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="Css/Reset-Variables/Reset-Variables.css">
+    <link rel="stylesheet" href="Css/Estilos_principales/styles.css">
+    <link rel="stylesheet" href="Css/Componentes/componentes.css">
+    <link rel="stylesheet" href="Css/Breakpoints/Sign_Up-In_Page/phone-smalltablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="Css/Breakpoints/Sign_Up-In_Page/largetablet-desktop-1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="Css/Breakpoints/Sign_Up-In_Page/desktop-1366.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="Css/Breakpoints/Sign_Up-In_Page/more-of-1366.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+     /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="main-container main-container--left">
+                <header class="main-container--left__header header__container">
+                    <div class="header__container--left">
+                        <img class="header__img--logo" src="Assets/Logo.svg" alt="Logo">
+                    </div>
+                    <div class="header__container--right">
+                        <a href="index.html">← Back to campgrounds</a>
+                    </div>
+                </header>
+
+                <main class="main-container main">
+                    <h1 class="main__h1">Start exploring camps from all around the word.</h1>
+                    <form class="main__form form" action="">
+                        <label class="form__label" for="">Username
+                            <input class="form__input" type="text" placeholder="MatuPau_20">
+                        </label>
+                        
+                        <label class="form__label" for="">Password
+                            <input class="form__input" type="password" placeholder="Enter Your Password">
+                        </label>
+                        
+                        <label class="form__label" for="">
+                            <input class="form__input--button primary-button" type="button" value="Login">
+                        </label>
+                        <p>Not a user yet? <a class="form__a" href="./sign-up.html">Create an account</a></p>
+                    </form>
+                </main>
+
+        </section>
+        <section class="main-container main-container--right">
+            <div>
+                <h2 class="main-container--right__h2">"YelpCamp has honestly saved me hours of research time, and the camps on here are definitely well picked and added"</h2>
+            </div>
+            <div>
+                <img class="main-container--right__img" src="Assets/User Testimonial.svg" alt="">
+                <div>
+                    <p class="main-container--right__name">May Andrews</p>
+                    <p class="main-container--right__profession">Professional Hiker</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

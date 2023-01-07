@@ -1,0 +1,62 @@
+:root {
+    /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+    --border-grey: #c6c6c6;
+    --input-grey: #f7f7f7;
+  
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+
+    /* others */
+    --general-border-radius: 6px
+}
+
+  .header__a {
+    display: none;
+}
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .main__h1 {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+  .form__label {
+    width: 100%;
+    color: var(--principal-grey);
+    font-weight: 600;
+}
+
+  .form__input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--input-grey);
+}
+
+  .form__textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--input-grey);
+}
+

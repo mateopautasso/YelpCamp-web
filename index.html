@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo-pestannia.png">
+    <title>Home | Yelp Camp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="Css/Reset-Variables/Reset-Variables.css">
+    <link rel="stylesheet" href="Css/Estilos_principales/styles.css">
+    <link rel="stylesheet" href="Css/Componentes/componentes.css">
+    <link rel="stylesheet" href="Css/Breakpoints/index/phone-smalltablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="Css/Breakpoints/index/largetablet-desktop-1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="Css/Breakpoints/index/desktop-1366.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="Css/Breakpoints/index/more-of-1366.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+     /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <header class="header__container">
+            <div class="header__container--left">
+                <img class="header__img--logo" src="Assets/Logo.svg" alt="Logo">
+                <a class="header__a" href="#">Home</a>
+            </div>
+            <div class="header__container--right">
+                <img class="header__img--more-options" src="Assets/Hamburger Menu.svg" alt="Más opciones">
+                <a class="header__a" href="sign-in.html">Login</a>
+                <a href="sign-up.html">
+                    <button class="header__button">Create an account</button>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="welcome">
+                <h1 class="welcome__h1">Welcome to Yelpcamp!</h1>
+                <p class="welcome__p">View our hand-picked campground from all over the word, or add your own.</p>
+
+                <div class="welcome__search-container search-container">
+                    <div class="search-container__input-container input-container">
+                        <label for="search-camp">
+                            <img class="input-container__img" src="Assets/Search Icon.svg" alt="Buscar">
+                        </label>
+                        <input id="search-camp" class="input-container__input" type="text" placeholder="Search for camps">
+                    </div>
+                    <button class="search-container__button">Search</button>
+                </div>
+
+                <a class="welcome__a" href="#">Or add you own campground</a>
+            </section>
+
+            <section class="main-container-cards">
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Mount Ulap</h2>
+                        <p class="card__p">One of the most famous hikes in Benguest is Mt Ulap in Itogon.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Calaguas Island.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Calaguas Islands</h2>
+                        <p class="card__p">A paradise of islands that can rival the white sand beauty of Boracay.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Onay Beach.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Onay beach</h2>
+                        <p class="card__p">This is one of the best beach camping sites, beautiful and prestine.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Seven Sisters Waterfall</h2>
+                        <p class="card__p">The Seven Sisters is the 39th tallest waterfall in Norway.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Latik Riverside.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Latik Riverside</h2>
+                        <p class="card__p">Philippines is one of the most dazzling countries in all of Asia.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card__container card">
+                    <div class="card">
+                        <img class="card__img" src="Assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt="Imágen del lugar">
+                        <h2 class="card__h2">Buloy Springs</h2>
+                        <p class="card__p">This is one of the best beach camping sites, beautiful and pristine.</p>
+                        <button class="card__button secondary-button">
+                            <h2>View campground</h2>
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <img class="footer__img" src="Assets/Logo.svg" alt="Logo">
+        </footer>
+    </div>
+</body>
+</html>

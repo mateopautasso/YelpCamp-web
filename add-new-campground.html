@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="Assets/logo-pestannia.png">
+    <title>Add New Campground | Yelp Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Css/Reset-Variables/Reset-Variables.css">
+    <link rel="stylesheet" href="Css/Estilos_principales/styles.css">
+    <link rel="stylesheet" href="Css/Componentes/componentes.css">
+    <link rel="stylesheet" href="Css/Breakpoints/Add_New_Campground/phone-smalltablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="Css/Breakpoints/Add_New_Campground/largetablet-desktop-1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="Css/Breakpoints/Add_New_Campground/desktop-1366.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="Css/Breakpoints/Add_New_Campground/more-of-1366.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        
+        <header class="header__container">
+            <div class="header__container--left">
+                <img class="header__img header__img--logo" src="Assets/Logo.svg" alt="Logo">
+                <a class="header__a" href="#">Home</a>
+            </div>
+            <div class="header__container--right">
+                <img class="header__img header__img--more-options" src="Assets/Hamburger Menu.svg" alt="Más opciones">
+                <a class="header__a header__a--username" href="#">MatuPau</a>
+                <a class="header__a header__a--logout" href="#">Logout</a>
+            </div>
+        </header>
+
+        <main class="main">
+           <h1 class="main__h1">Add New Campground</h1>
+           <form class="form" action="campground-name">
+                <label class="form__label" for="">Campground Name
+                    <input class="form__input" type="text" id="campground-name">
+                </label>
+                
+                <label class="form__label" for="campground-price">Price
+                    <input class="form__input" type="text" id="campground-price">
+                </label>
+                
+                <label class="form__label" for="campground-image">Image
+                    <input class="form__input" type="text" id="campground-image">
+                </label>
+                
+                <label class="form__label" for="campground-description">Description
+                    <textarea class="form__textarea" name="campground-description" id="campground-description" cols="30" rows="10" placeholder="Enter a description"></textarea>
+                </label>
+           </form>
+        </main>
+
+        <footer class="footer">
+            <img class="footer__img" src="Assets/Logo.svg" alt="Logo">
+        </footer>
+    </div>
+</body>
+</html>

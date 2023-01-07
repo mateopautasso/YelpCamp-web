@@ -1,0 +1,89 @@
+:root {
+    /* colors */
+   --principal-white: #ffffff;
+   --secondary-white:  #f9f6f1;
+   --principal-black: #000000;
+   --secondary-black: #232323;
+   --principal-grey: #4d4d4d;
+   --secondary-grey: #dadada;
+
+   /* Tipografía */
+   --tipografía-principal: 'Archivo', sans-serif;
+
+    /* others */
+    --general-border-radius: 6px
+}
+
+.header__a,
+.header__button {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.card {
+    border: 1px solid var(--secondary-grey);
+    border-radius: var(--general-border-radius);
+    padding: 3rem;
+}
+@media screen and (max-width: 360px){
+    .card {
+        padding: 0.8rem;
+    }
+}
+
+.card__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card__price-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card__p--italic {
+    font-style: italic;
+}
+
+.card__comments {
+    width: 100%;
+    border-bottom: 1px solid var(--secondary-grey);
+    padding: 2rem;
+}
+
+.card--comments {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.card__p--bold {
+    margin-bottom: 1rem;
+    color: var(--principal-black);
+    font-weight: bold;
+}
+
+.card__button {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.card__img-button {
+    width: 2rem;
+}
+.card--map {
+    padding: 1rem 1rem;
+}
+.card__container--map {
+    margin: 0 auto;
+}

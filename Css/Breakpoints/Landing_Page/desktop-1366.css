@@ -1,0 +1,65 @@
+:root {
+    /* colors */
+   --principal-white: #ffffff;
+   --secondary-white:  #f9f6f1;
+   --principal-black: #000000;
+   --secondary-black: #232323;
+   --principal-grey: #4d4d4d;
+
+   /* Tipografía */
+   --tipografía-principal: 'Archivo', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0rem;
+}
+
+.main-container--left__header {
+    display: none;
+}
+
+.main-container--left {
+    width: 45%;
+    height: 100%;
+}
+
+.main-container--left__img {
+    display: none;
+}
+.main-container--left__img--desktop {
+    height: 100%;
+    display: inline;
+}
+
+.main-container--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    padding: 84px;
+    background-color: var(--secondary-white);
+}
+
+.main-container--right__main {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-white);
+}
+
+.main__container-sponsors img {
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.main__button {
+    font-size: 1.9rem;
+    font-weight: 700;
+}

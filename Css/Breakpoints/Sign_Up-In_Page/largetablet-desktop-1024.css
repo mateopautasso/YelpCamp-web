@@ -1,0 +1,11 @@
+.main-container--left,
+.main-container--right {
+    padding: 3.2rem;
+}
+.main__h1 {
+    width: 100%;
+    line-height: 3rem;
+}
+.form {
+    width: 60rem;
+}

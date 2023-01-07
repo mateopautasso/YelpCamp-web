@@ -1,0 +1,145 @@
+:root {
+    /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+    --border-grey: #c6c6c6;
+  
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+
+    /* others */
+    --general-border-radius: 6px
+  }
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+main {
+    width: 100%;
+}
+
+
+
+/* HEADER STYLES */
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.header__container--left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+.header__a {
+    display: flex;
+    margin-top: 0.4rem;
+}
+.header__button {
+    display: flex;
+}
+
+.header__container--right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+.header__img--more-options {
+    display: none;
+}
+
+
+
+
+/* WELCOME CARD */
+.welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: var(--general-border-radius);
+    gap: 1.6rem;
+    padding: 2rem 3rem;
+    margin-bottom: 6rem;
+    background-color: var(--secondary-white);
+}
+
+.welcome__a {
+    text-decoration: underline;
+}
+.welcome__p {
+    width: 35rem;
+}
+
+.welcome__search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.search-container__input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    border-radius: var(--general-border-radius);
+    border: 1px solid var(--principal-grey);
+    margin-right: 2rem;
+    /* margin-bottom: 1.6rem; */
+    background-color: var(--principal-white);
+}
+.input-container__img {
+    width: 1.6rem;
+    padding: 0px;
+    margin: 0px 1.6rem;
+    cursor: pointer;
+}
+.input-container__input {
+    width: 100%;
+    padding-left: 0rem;
+    border: none;
+    outline: none;
+    background-color: var(--principal-white);
+}
+.input-container__input::placeholder {
+    font-weight: 500;
+}
+.search-container__button {
+    width: 10rem;
+}
+
+
+
+
+/* CAMPS CARD */
+.main-container-cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 4rem;
+}
+
+
+/* FOOTER STYLES */
+.footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.footer__img {
+    width: 100%;
+    width: 118px;
+    height: 27px;
+}

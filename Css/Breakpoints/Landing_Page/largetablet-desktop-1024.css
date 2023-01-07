@@ -1,0 +1,25 @@
+:root {
+    /* colors */
+   --principal-white: #ffffff;
+   --secondary-white:  #f9f6f1;
+   --principal-black: #000000;
+   --secondary-black: #232323;
+   --principal-grey: #4d4d4d;
+
+   /* Tipografía */
+   --tipografía-principal: 'Archivo', sans-serif;
+}
+.main-container {
+    gap: 2rem;
+}
+.main__h1 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+.main__button {
+    width: 30rem;
+}
+.main__container-sponsors img {
+    max-width: 200px;
+    object-fit: contain;
+}

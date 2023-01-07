@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo-pestannia.png">
+    <title>Individual Campground | Yelp Camp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="Css/Reset-Variables/Reset-Variables.css">
+    <link rel="stylesheet" href="Css/Estilos_principales/styles.css">
+    <link rel="stylesheet" href="Css/Componentes/componentes.css">
+    <link rel="stylesheet" href="Css/Breakpoints/Individual_Campground/phone-smalltablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="Css/Breakpoints/Individual_Campground/largetablet-desktop-1024.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="Css/Breakpoints/Individual_Campground/desktop-1366.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+     /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+}
+    </style>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__container--left">
+            <img class="header__img--logo logo" src="Assets/Logo.svg" alt="Logo">
+            <a class="header__a" href="#">Home</a>
+        </div>
+        <div class="header__container--right">
+            <img class="header__img--more-options" src="Assets/Hamburger Menu.svg" alt="Más opciones">
+            <a class="header__a" href="#">Login</a>
+            <button class="header__button">Create an account</button>
+        </div>
+    </header>
+    <main class="main">
+        <section>
+            <div class="card card--site">
+                <div class="card__container">
+                    <img class="card__img" src="Assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt="Imágen del lugar">
+                    <div class="card__price-title-container">
+                        <h2 class="card__h2">Mount Ulap</h2>
+                        <p class="card__p--price">$104.99/night</p>
+                    </div>
+                    <p class="card__p">Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Philippines that offers the chance to see wildlife and is rated as moderate. The trail is primarily used for hiking.</p>
+                    <p class="card__p--italic">Submitted by Andrew Mike</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="card card--comments">
+                <div class="card__container card__container--comments">
+                    <div class="card__comments">
+                        <div class="card__price-title-container">
+                            <p class="card__p--bold">Adam Jones</p>
+                            <p>13h ago</p>
+                        </div>
+                        <p class="card__p">Honestly one of the best experiences ever, took us a while to figure out how to get there but it was amazing!
+                        </p>
+                    </div>
+                    <div class="card__comments">
+                        <div class="card__price-title-container">
+                            <p class="card__p--bold">Isaac Dylan</p>
+                            <p>1 day ago</p>
+                        </div>
+                        <p class="card__p">Traveling changes you as a person, you gain more perspective, this is the perfect spot to do that.</p>
+                    </div>
+                    <div class="card__comments">
+                        <div class="card__price-title-container">
+                            <p class="card__p--bold">Hudson Luca</p>
+                            <p>3 days ago</p>
+                        </div>
+                        <p class="card__p">Definitely recommend going there, not too far and not a lot of people to ruin the experience.</p>
+                    </div>
+                    <div class="card__comments">
+                        <button class="card__button principal-button">
+                            <img class="card__img-button" src="Assets/Chat Bubble.svg" alt="">
+                            Leave a Review
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="card card--map">
+                <div class="card__container--map">
+                    <img class="card__img--map" src="Assets/Map.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__img" src="Assets/Logo.svg" alt="Logo">
+    </footer>
+</body>
+</html>

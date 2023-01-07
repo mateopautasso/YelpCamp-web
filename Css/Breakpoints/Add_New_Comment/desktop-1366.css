@@ -1,0 +1,41 @@
+:root {
+    /* colors */
+    --principal-white: #ffffff;
+    --secondary-white:  #f9f6f1;
+    --principal-black: #000000;
+    --secondary-black: #232323;
+    --principal-grey: #4d4d4d;
+    --border-grey: #c6c6c6;
+  
+    /* Tipografía */
+    --tipografía-principal: 'Archivo', sans-serif;
+
+    /* others */
+    --general-border-radius: 6px
+  }
+
+.main-container {
+    max-width: 102.4rem;
+    height: 100vh;
+    margin: 0 auto;
+}
+body {
+    padding-top: 1.6rem;
+}
+.header__a {
+    display: inline-block;
+}
+.header__img--more-options {
+    display: none;
+}
+.header__a--username {
+    color: var(--secondary-black);
+    font-weight: 700;
+}
+.header__a--logout {
+    color: var(--principal-grey);
+}
+
+.footer {
+    padding-bottom: 0rem;
+}
